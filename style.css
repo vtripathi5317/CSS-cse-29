@@ -1,0 +1,28 @@
+body {
+            font-family: Arial, sans-serif;
+        }
+
+        .card {
+            width: 150px;
+            height: 150px;
+            display: inline-block;
+            padding: 20px;
+            text-align: center;
+            margin: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            vertical-align: top;
+        }
+
+        .book {
+            background-color: #c5c83c;
+        }
+
+        .headphones {
+            background-color: #e41c61;
+            color: white;
+        }
+
+        .watch {
+            background-color: #b6d9e6;
+        }
