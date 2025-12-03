@@ -1,0 +1,28 @@
+.container{
+    display:flex;
+    flex-direction: row;
+     height:500px; 
+     width:1000px; 
+    background-color:blue;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    gap:10px;
+}
+.item{
+    height:100px;
+    width:100px;
+    background-color:brown;
+    color:beige;
+    text-align:center;
+    align-center:center; 
+    border:1px solid black;
+    flex-grow:1;
+}
+.item2{
+    order: -1;
+    flex-grow:2;
+    align-self:flex-end;
+    
+}
